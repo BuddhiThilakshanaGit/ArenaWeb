@@ -31,14 +31,18 @@
 	color:$theme-color;
 	
 */
-@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Noto+Serif:400,400i,700&display=swap");
+/* @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700,900|Noto+Serif:400,400i,700&display=swap"); */
+  /* edited by Buddhi Thilakshana */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&family=Ubuntu&family=Open+Sans&display=swap');
 
 .boxed-btn {
   background: #fff;
   color: #dc143c !important;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Lato", sans-serif;
+    /* edited by Buddhi Thilakshana */
+
+  font-family: "Raleway", sans-serif !important;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -129,7 +133,8 @@
 /*  01. Theme default CSS
 /*----------------------------------------*/
 body {
-  font-family: 'Lato', sans-serif;
+    /* edited by Buddhi Thilakshana */
+  font-family: 'Roboto', sans-serif !important;
   font-weight: normal;
   font-style: normal;
 }
@@ -208,7 +213,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Ubuntu', serif;
   color: #0b1c39;
   margin-top: 0px;
   font-style: normal;
@@ -265,7 +270,7 @@ p {
   line-height: 24px;
   color: #778090;
   margin-bottom: 15px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif !important
 }
 
 hr {
@@ -2360,19 +2365,19 @@ label {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area {
-    padding: 18px 0;
+    padding: 10px 0;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area {
-    padding: 18px 0;
+    padding: 10px 0;
   }
 }
 
 @media (max-width: 767px) {
   .header-area {
-    padding: 18px 0;
+    padding: 10px 0;
   }
 }
 
@@ -2390,7 +2395,8 @@ label {
 .main-header .main-menu ul li a {
   color: #262626;
   font-weight: 400;
-  padding: 38px 19px;
+  /* edited by Buddhi Thilakshana */
+  padding: 20px 19px;
   display: block;
   font-size: 16px;
   position: relative;
@@ -2449,7 +2455,8 @@ label {
 }
 
 .header-sticky.sticky-bar.sticky .main-menu ul>li>a {
-  padding: 22px 20px;
+  /* edited by Buddhi Thilakshana */
+  padding: 20px 20px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
