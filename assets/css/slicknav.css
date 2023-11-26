@@ -80,7 +80,9 @@
     color: #fff;
     font-weight: bold; }
   .slicknav_menu .slicknav_icon-bar {
-      background-color: #b72c3b !important;
+    height:  0.15em !important;
+    width: 1.5em !important;
+      background-color: #313131 !important;
     }
 
     .slicknav_btn {
