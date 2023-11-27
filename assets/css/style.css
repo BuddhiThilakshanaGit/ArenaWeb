@@ -40,8 +40,7 @@
   color: #dc143c !important;
   display: inline-block;
   padding: 18px 44px;
-    /* edited by Buddhi Thilakshana */
-
+  /* edited by Buddhi Thilakshana */
   font-family: "Raleway", sans-serif !important;
   font-size: 14px;
   font-weight: 400;
@@ -3375,17 +3374,52 @@ label {
   position: relative;
 }
 
+.dining-area .single-dining-area.img1::before {
+  background-image: url(../img/dining/sky-restaurant.jpg);
+  width: 50%;
+  border-radius: 0 5px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dining-area .single-dining-area.img2::before {
+  background-image: url(../img/dining/cafe.jpg);
+  width: 50%;
+  border-radius: 0 5px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dining-area .single-dining-area.img3::before {
+  background-image: url(../img/dining/pool.jpg);
+  width: 50%;
+  border-radius: 0 5px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dining-area .single-dining-area.img4::before {
+  background-image: url(../img/dining/boat.jpg);
+  width: 50%;
+  border-radius: 0 5px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.dining-area .single-dining-area.img6::before {
+  background-image: url(../img/dining/dining-img.png);
+  width: 50%;
+  border-radius: 0 5px 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .dining-area .single-dining-area.left-img::before {
   position: absolute;
   left: 0;
   content: "";
   top: 0;
   bottom: 0;
-  background-image: url(../img/dining/dining-img.png);
-  width: 50%;
-  border-radius: 0 5px 0 0;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 @media (max-width: 767px) {
@@ -3404,11 +3438,6 @@ label {
   content: "";
   top: 0;
   bottom: 0;
-  background-image: url(../img/dining/dining-img2.png);
-  width: 50%;
-  border-radius: 0 0 0 5px;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 @media (max-width: 767px) {
