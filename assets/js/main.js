@@ -35,9 +35,9 @@
         doAnimations($animatingElements);
       });
       BasicSlider.slick({
-        autoplay: false,
-        autoplaySpeed: 4000,
-        dots: true,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        dots: false,
         fade: true,
         arrows: false,
         prevArrow: '<button type="button" class="slick-prev"><img src="img/hero_thumb/arrow-left.png" alt=""><img class="secondary-img" src="img/hero_thumb/left-white.png" alt=""></button>',
